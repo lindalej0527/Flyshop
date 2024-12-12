@@ -1,0 +1,8 @@
+[
+    { "title": "Home", "url": "/" },
+    { "title": "Guiding", "url": "/Guiding/" },
+    { "title": "River Report", "url": "/River-Report/" },
+    { "title": "Classes & Events", "url": "/Classes-&-Events/" },
+    { "title": "About Us", "url": "/About-Us/" },
+    { "title": "Shop", "url": "/Shop/" }
+]
