@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Shop</title>
-    <link rel="stylesheet" href="/Styles/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jude's Fly Shop</title>
+    <link rel="stylesheet" href="../Styles/main.css">
 </head>
-<body>
+<body class="shop-page">
+    <!-- Navbar -->
     <header>
         <nav class="navbar">
             <ul>
-                
-                    <li>
-                        <a href="/" class="">
-                            Home
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/Guiding/" class="">
-                            Guiding
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/River-Report/" class="">
-                            River Report
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/Classes-&amp;-Events/" class="">
-                            Classes &amp; Events
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/About-Us/" class="">
-                            About Us
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/Shop/" class="selected">
-                            Shop
-                        </a>
-                    </li>
-                
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="Guiding/index.html">Guiding</a></li>
+                <li><a href="River-Report/index.html">River Report</a></li>
+                <li><a href="Classes-&-Events/index.html">Classes & Events</a></li>
+                <li><a href="About-Us/index.html">About Us</a></li>
+                <li><a href="Shop/index.html">Shop</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <p>Jude’s Fly Shop is your one-stop destination for all things fly fishing. Browse our curated selection of rods, reels, waders, and accessories from top brands, or explore our locally tied flies designed specifically for New England waters. Whether you’re gearing up for your next trip or looking for expert advice, we’re here to help you make the most of your time on the water.</p>
-
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <h1 class="hero-title">Shop</h1>
+        </section>
+        <section class="shop-content">
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img 
+                        src="Styles\Images\DALL·E 2024-12-12 11.40.15 - A detailed close-up of high-quality fly fishing rods and reels displayed on a wooden rack. The rods feature sleek designs with visible brand markings,.webp" 
+                        alt="Fly Fishing Rods and Reels">
+                    <button class="shop-button">Reels & Rods</button>
+                </div>
+                <div class="shop-item">
+                    <img 
+                        src="Styles\Images\DALL·E 2024-12-12 11.40.19 - A detailed close-up of a selection of vibrant, locally tied fly fishing flies displayed on a wooden board. The flies feature intricate designs with br (1).webp" 
+                        alt="Fly Fishing Flies">
+                    <button class="shop-button">Flys</button>
+                </div>
+                <div class="shop-item">
+                    <img 
+                        src="Styles\Images\DALL·E 2024-12-12 11.40.24 - A detailed close-up of fly fishing accessories displayed in a shop, including tools like nippers, hemostats, fly boxes, and tippet spools. The accesso.webp" 
+                        alt="Fly Fishing Accessories">
+                    <button class="shop-button">Gear</button>
+                </div>
+                <div class="shop-item">
+                    <img 
+                        src="Styles\Images\DALL·E 2024-12-12 11.40.22 - A detailed close-up of high-quality waders and boots displayed in a fly fishing shop. The waders are crafted from durable, waterproof material with re.webp" 
+                        alt="Waders and Boots">
+                    <button class="shop-button">Fly Tying</button>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
